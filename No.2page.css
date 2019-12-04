@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Garden Sans";
+  margin: 0;
+  font-size: 30px;
+}
+h1,
+h2 {
+  font-family: "PiratesBay";
+  font-weight: 400;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: darkorange;
+  color: black;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* sections
+      -------------------------*/
+section,
+footer {
+  background: black;
+  color: #8d99ae;
+}
+
+/* header */
+section {
+  padding-top: 50px;
+  position: relative;
+}
+section h1,
+section h2 {
+  color: #edf2f4;
+  margin: 0;
+}
+.play {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+/* Media Queries
+      -------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}

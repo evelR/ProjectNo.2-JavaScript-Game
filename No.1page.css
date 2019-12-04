@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: url(Materials/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header h1 {
+  color: darkgray;
+  font-family: "PiratesBay";
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+.btn {
+  text-decoration: none;
+  background: darkorange;
+  color: black;
+  padding: 10px;
+  display: inline-block;
+}
+.play {
+  position: absolute;
+  bottom: 100px;
+  right: 350px;
+}
+/* Media Queries-------------------------*/
+@media (min-width: 900px) {
+  .col-wide {
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+  }
+}
