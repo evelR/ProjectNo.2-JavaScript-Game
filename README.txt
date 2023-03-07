@@ -20,7 +20,7 @@ SOFTWARE USED:
 
 Corel draw x6
 Visual studio code
-Google chrome
+Google Chrome
 One drive
 
 
